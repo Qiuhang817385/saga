@@ -1,0 +1,51 @@
+Arguments: 
+  D:\node\node.exe C:\Users\Artificial\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add history
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\AllProject\A;D:\qqmusic;C:\Program Files\MongoDB\Server\4.2\bin;C:\Program Files\MongoDB\bin;D:\VisualSVN Server\bin;D:\qqmusic\1;D:\TortoiseSVN\bin;D:\node\;D:\Git\cmd;D:\Python;C:\Program Files\Java\jdk1.8.0_231\bin;D:\Python\Scripts\;D:\Python\;C:\Users\Artificial\AppData\Local\Microsoft\WindowsApps;;D:\vscode\Microsoft VS Code\bin;C:\Users\Artificial\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Artificial\AppData\Local\Yarn\Cache\v6\npm-regjsgen-0.5.1-48f0bf1a5ea205196929c0d9798b42d1ed98443c-integrity\node_modules\regjsgen\LICENSE' -> 'C:\Users\Artificial\Desktop\dva\my-dva\node_modules\@babel\helper-create-regexp-features-plugin\node_modules\regjsgen\LICENSE'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
