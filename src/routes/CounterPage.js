@@ -2,6 +2,8 @@ import React from 'react'
 // rfc快捷键
 import { connect } from 'dva'
 import Counter from './../components/Counter';
+
+import { createAdd, createAsyncAdd, createSub, createAdd1 } from './../actions/index';
 function CounterPage (props) {
   // props当中的三个属性,history,match,location
   console.log(props);
@@ -24,5 +26,9 @@ const mapStateToProps = (state, ownProps) => {
     counter: state.counter
   }
 }
+const mapDispatchToProps = {
+  createAdd, createAsyncAdd, createSub, createAdd1
+}
 
-export default connect(mapStateToProps)(CounterPage)
+// 如果使用了第二个参数,那么将不会把dispatch传递过去给子组件
+export default connect(mapStateToProps, mapDispatchToProps)(CounterPage)

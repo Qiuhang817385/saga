@@ -11,7 +11,8 @@ export default {
       console.log('这里是自动调用的');
     },
   },
-
+  // 相当于takeevery
+  // 
   effects: {
     // watch,generator函数,call并且put,call发送异步请求,put转发action的
     *fetch ({ payload }, { call, put }) {  // eslint-disable-line

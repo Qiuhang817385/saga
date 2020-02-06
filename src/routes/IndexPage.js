@@ -1,8 +1,8 @@
 import React from 'react';
 import { connect } from 'dva';
 import styles from './IndexPage.css';
-
-function IndexPage() {
+import { Link } from 'dva/router'
+function IndexPage () {
   return (
     <div className={styles.normal}>
       <h1 className={styles.title}>Yay! Welcome to dva!</h1>
@@ -11,6 +11,10 @@ function IndexPage() {
         <li>To get started, edit <code>src/index.js</code> and save to reload.</li>
         <li><a href="https://github.com/dvajs/dva-docs/blob/master/v1/en-us/getting-started.md">Getting Started</a></li>
       </ul>
+      {/* 加不加/都可以 */}
+      <Link to="/counter">Counter组件</Link>
+      <br />
+      <Link to="/user">User组件</Link>
     </div>
   );
 }
