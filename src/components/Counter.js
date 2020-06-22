@@ -10,8 +10,6 @@ export default class Counter extends Component {
     // console.log("context", context);
     // 没有context啊,怎么回事,是个undefined,原来下面的Counter.contextTypes需要加s
     console.log('this.context', this);
-
-
     /* 
         this.props
             match: {path: "/counter", url: "/counter", isExact: true, params: {…}}

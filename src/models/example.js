@@ -1,6 +1,6 @@
 
 export default {
-  // 相当于combine-reducers的名称,命名空间
+  // 相当于combine-reducers的名称,命名空间,redux
   namespace: 'example',
 
   state: {},
@@ -15,6 +15,8 @@ export default {
   // 
   effects: {
     // watch,generator函数,call并且put,call发送异步请求,put转发action的
+    // put同步
+    // call异步
     *fetch ({ payload }, { call, put }) {  // eslint-disable-line
       yield put({ type: 'save' });
     },
