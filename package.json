@@ -7,7 +7,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dva": "^2.4.1",
     "dva-loading": "^3.0.20",
     "history": "^4.10.1",
